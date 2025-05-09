@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/connexion.css">
+    <link rel="stylesheet" href="css/inscription.css">
+    <title>inscription</title>
+</head>
+<body>
+<!-- ------------------ en tete ---------------------------- -->
+    <header>
+        <section class="section1">
+            <img src="image/log.png" alt="logo" class="logo">
+            <div class="cherche">
+                <input type="research" placeholder="chercher un plat" class="inp">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </section>
+        <section class="section2">
+            <ul class="navbar">
+                <!--  -->
+                <i class="fa-solid fa-house i1" ></i>
+                <i class="fa-solid fa-plate-wheat i1"></i>
+                <i class="fa-solid fa-phone i1"></i>
+                <!--  -->
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="plat.html">Plats</a></li>
+                <li><a href="contact.html">Nous</a></li>
+            </ul>
+            <div class="march">
+                <a href="commande.html" class="march comm">
+                    <i class="fa-solid fa-plate-wheat trouche"></i>
+                    <span class="commande">0</span>
+                </a>
+            </div>
+        </section>
+    </header>
+
+ <!-- ------------------ fin en tete ---------------------------- -->
+
+<!-- ------------------------- man ---------------------------------->
+<main>
+    <img src="image/img.jpg" alt="cuisine" class="cuisine">
+    <div class="design"></div>
+    <form action="inscription.php" method="post" class="form">
+        <div class="dform"></div>
+        First name
+        <input type="text" name="firstname" required placeholder="firstname" class="name inpt">
+        last name
+        <input type="text" name="lastname" required placeholder="lastname" class="name inpt">
+        Email 
+        <input type="email" name="email" placeholder="email" required class="email inpt">
+        password
+        <input type="password" name="password" placeholder="password" required class="password inpt">
+        <button type="submit" class="bouton" name="bouton">
+            create my count
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <p>i have a count, <a href="connection.html" class="count">log in now</a></p>
+    </form>
+</main>
+<!-- ------------------------- /man --------------------------------->
+
+
+ <!------------------------------script des icones ----------------------------------------->
+    <script src="https://kit.fontawesome.com/8fcdb8b037.js" crossorigin="anonymous"></script>
+</body>
+</html>
